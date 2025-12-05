@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>QRコード</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+<h2>注文ページQRコード</h2>
+<div id="qrcode"></div>
+<script>
+  new QRCode(document.getElementById("qrcode"), "http://127.0.0.1:5500/menu.html");
+</script>
+</body>
+</html>
+ 
